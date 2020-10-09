@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+	<category>
+	    <pattern>Hey bot</pattern>
+	    <template>Hello...welcome to Dominos </template>
+	</category>
+	
+	<category>
+	    <pattern>yeah</pattern>
+	    <template>what kind of pizza do you want?</template>
+	</category>
+	
+	<category>
+	    <pattern>How many types of pizzas are there</pattern>
+	    <template>There are two types of pizzas veg and non-veg.</template>
+	</category>
+	
+	<category>
+	    <pattern>oh i need nonveg one</pattern>
+	    <template>Here is the menu of nonveg. what do u like to order now?</template>
+	</category>
+	
+	<category>
+	    <pattern>i need nonveg supreme</pattern>
+	    <template>How large?</template>
+	</category>
+	
+	<category>
+	    <pattern>medium</pattern>
+	    <template>Do you want to customize your pizza?</template>
+	</category>
+	
+	<category>
+	    <pattern>what does it mean</pattern>
+	    <template>crusttype,toppings,cheese,etc,. </template>
+	</category>
+	
+	<category>
+	    <pattern>Yes i need</pattern>
+	    <template>so you want all those three which i said before?</template>
+	</category>
+	
+	<category>
+	    <pattern>No only add extra cheese.</pattern>
+	    <template>ok.Anything else?</template>
+	</category>
+	
+	<category>
+	    <pattern>Toppings also but Can u tell the items available in toppings?</pattern>
+	    <template>okay..as of now we have black olive,onion,crisp capsicum,paneer,mushroom,golden corn,fresh tomato,jalapeno,red parpika,babycorn,chicken salami.</template>
+	</category>
+	
+	<category>
+	    <pattern>i jst need paneer and fresh tomato.</pattern>
+	    <template>okay.Anything else?</template>
+	</category>
+	
+	<category>
+	    <pattern>i am done</pattern>
+	    <template>okay.How many do u want?</template>
+	</category>
+	
+	<category>
+	    <pattern>Two</pattern>
+	    <template>Got it.Let me just take your info.could you?</template>
+	</category>
+	
+	<category>
+	    <pattern>Yes</pattern>
+	    <template>whats your name?</template>
+	</category>
+	
+	<category>
+	    <pattern>Aishwarya</pattern>
+	    <template>phone number?</template>
+	</category>
+	
+	<category>
+	    <pattern>7569006746</pattern>
+	    <template>ok.Location?</template>
+	</category>
+	
+	<category>
+	    <pattern>flat no.503,5th floor,svr's nestle apartment,syamalanagar,0line,guntur,AP</pattern>
+	    <template>okay.what type of payment do u choose google pay,phone pe or paytm?</template>
+	</category>
+	
+	<category>
+	    <pattern>Google pay</pattern>
+	    <template>ok.pay it in the number provided by dominos website.Within 20min they reach you.</template>
+	</category> 
+	
+	<category>
+	    <pattern>okay cool.</pattern>
+	    <template>After the order has been recieved please rate your opinion on our official website.</template>
+	</category>
+	
+	<category>
+	    <pattern>okay sure</pattern>
+	    <template>thank you. Any suggestions?</template>
+	</category>
+	
+	<category>
+	    <pattern>Nothing much for now after the pizza got delivered i ll keep it in the comment box of ur website and give suggesstions.</pattern>
+	    <template>yah.Thankyou so much.Hope you enjoy the day</template>
+	</category>
+	
+	<category>
+	    <pattern>yeah sure</pattern>
+	    <template>visit again!
+	    stay home stay safe!</template>
+	</category>
+</aiml>
