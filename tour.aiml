@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+	<category>
+	    <pattern>can you tell me about *</pattern>
+	    <template>
+	        <think><set name="it"><star/></set></think>
+	        and here is the some information about<formal><star/></formal>
+	        <button>
+	            <text>and click here</text>
+	            <url>https://www.wikipedia.org/wiki/<star/></url>
+	        </button>
+	    </template>
+	</category>
+	
+	<category>
+	    <pattern>i want to see a map of *</pattern>
+	    <template>
+	        <think><set name="it"><star/></set></think>
+	        and here is the location of<formal><star/></formal>
+	        <button>
+	            <text>and click here</text>
+	            <url>https://www.google.co.uk/maps?q=<star/></url>
+	        </button>
+	    </template>
+	</category>
+	
+		<category>
+	    <pattern>what is the weather in *</pattern>
+	    <template>
+	        <think><set name="it"><star/></set></think>
+	        and check out the weather in<formal><star/></formal>
+	        <button>
+	            <text>and click here</text>
+	            <url>https://www.weather-forecast.com/locations/<star/>/forecasts/latest</url>
+	        </button>
+	    </template>
+	</category>
+	
+	<category>
+	    <pattern>can you tell me about it</pattern>
+	    <template>
+	        <condition name="it">
+	           <li value="*"><srai>can you tell me about <get name="it"/></srai></li> 
+	           <li>can you tell me about what?</li>
+	        </condition>
+	    </template>
+	</category>
+	
+	<category>
+	    <pattern>what is the weather here</pattern>
+	    <template>
+	        <condition name="it">
+	           <li value="*"><srai>what is the weather in <get name="it"/></srai></li> 
+	           <li>the weather where?</li>
+	        </condition>
+	    </template>
+	</category>
+	
+	<category>
+	    <pattern>i want to see a map</pattern>
+	    <template>
+	        <condition name="it">
+	           <li value="*"><srai>i want to see a map of <get name="it"/></srai></li> 
+	           <li>a map of what?</li>
+	        </condition>
+	    </template>
+	</category>
+</aiml>
