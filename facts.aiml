@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+	<category>
+	    <pattern>Hi bot</pattern>
+	    <template>Hello...Thankyou for contacting Facts of india </template>
+	</category>
+	
+	<category>
+	    <pattern>ok </pattern>
+	    <template>What kind of facts do you want</template>
+	</category>
+	
+	<category>
+	    <pattern>What facts are there</pattern>
+	    <template>There are many facts about india</template>
+	</category>
+	
+	<category>
+	    <pattern>ok cool i need intresting facts about india</pattern>
+	    <template>sure.Within a minute you get the intresting facts of india </template>
+	</category>
+	
+	<category>
+	    <pattern>yeah i am waiting</pattern>
+	    <template>India has over 300,000 mosques and over 2 million Hindu temples</template>
+	</category>
+	
+	<category>
+	    <pattern>Wow awesome.Next</pattern>
+	    <template>The popular game “Snakes and Ladders” originated in India</template>
+	</category>
+	
+	<category>
+	    <pattern>thats cool</pattern>
+	    <template>India was the first country to mine diamonds </template>
+	</category>
+	
+	<category>
+	    <pattern>wow proud to be an indian</pattern>
+	    <template> “Indian food” has become one of the most widespread cuisines in the world</template>
+	</category>
+	
+	<category>
+	    <pattern>yes food will be awesome</pattern>
+	    <template>Chess was invented in India</template>
+	</category>
+	
+	<category>
+	    <pattern>amazing</pattern>
+	    <template>India has the largest number of Post Offices in the world.</template>
+	</category>
+	
+	<category>
+	    <pattern>okay</pattern>
+	    <template>okay..do you want anything else?The largest employer in India is the Indian Railways, employing over a million people.</template>
+	</category>
+	
+	<category>
+	    <pattern>thats nice</pattern>
+	    <template>India exports software to 90 countries</template>
+	</category>
+	
+	<category>
+	    <pattern>ohhh</pattern>
+	    <template>Yoga has its origins in India and has existed for over 5,000 years.</template>
+	</category>
+	
+	<category>
+	    <pattern>wow nice</pattern>
+	    <template>A Meteor formed the Breathtaking Lonar Lake in Maharashtra</template>
+	</category>
+	
+	<category>
+	    <pattern>ohh intresting</pattern>
+	    <template>Mysterious Anti-Gravity Hills In Ladakh, Magnetic Hill</template>
+	</category>
+	
+	<category>
+	    <pattern>nice thankyou bot its enough</pattern>
+	    <template>pleasure.Once again thankyou for contacting us</template>
+	</category>
+	
+	<category>
+	    <pattern>okay</pattern>
+	    <template>please visit our website for more intresting news</template>
+	</category>
+	
+</aiml>
